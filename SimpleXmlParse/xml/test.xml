@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openimmo xmlns="http://www.openimmo.de"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.openimmo.de openimmo.xsd">
+    <uebertragung art="ONLINE" umfang="VOLL" version="1.2.4" sendersoftware="EDI-Real" senderversion="1.2.4"
+                  techn_email="export@edireal.com"/>
+    <anbieter>
+        <anbieternr>3382</anbieternr>
+        <firma>Trendreal S-P GmbH &amp; CoKG</firma>
+        <openimmo_anid>-30000382</openimmo_anid>
+        <anhang location="REMOTE" gruppe="ANBIETERLOGO">
+            <format>jpg</format>
+            <daten>
+                <pfad>http://media.ediorg.at/media/image/-30000382/orig/-30000382_0.jpg</pfad>
+            </daten>
+        </anhang>
+        <immobilie>
+            <objektkategorie>
+                <nutzungsart WOHNEN="1" GEWERBE="0" ANLAGE="0" WAZ="0"/>
+                <vermarktungsart KAUF="1" MIETE_PACHT="0" ERBPACHT="0" LEASING="0"/>
+                <objektart>
+                    <haus haustyp="DOPPELHAUSHAELFTE"/>
+                </objektart>
+                <user_defined_simplefield feldname="obergruppe">Häuser</user_defined_simplefield>
+                <user_defined_simplefield feldname="untergruppen">Doppelhaushälfte;;</user_defined_simplefield>
+            </objektkategorie>
+            <geo>
+                <plz>8020</plz>
+                <ort>Graz</ort>
+                <bundesland>Steiermark</bundesland>
+                <land iso_land="AUT"/>
+                <user_defined_simplefield feldname="bezirk">Melk</user_defined_simplefield>
+                <user_defined_simplefield feldname="geocords_allow">0</user_defined_simplefield>
+            </geo>
+            <kontaktperson>
+                <email_zentrale>office@trendreal.at</email_zentrale>
+                <email_direkt>josef.luger@trendreal.at</email_direkt>
+                <tel_zentrale>+43 / 732 / 673562 / 0</tel_zentrale>
+                <tel_durchw>43 / 664 53 73 477</tel_durchw>
+                <name><![CDATA[Luger]]></name>
+                <vorname>Josef</vorname>
+                <anrede>Herr</anrede>
+                <firma>Trendreal S-P GmbH &amp; CoKG</firma>
+                <strasse>Stummerstraße</strasse>
+                <hausnummer>1</hausnummer>
+                <plz>4060</plz>
+                <ort>Leonding</ort>
+                <land iso_land="AUT"/>
+                <url>www.trendreal.at</url>
+                <adressfreigabe>1</adressfreigabe>
+                <personennummer>10</personennummer>
+            </kontaktperson>
+            <preise>
+                <kaufpreis>252110.00</kaufpreis>
+                <aussen_courtage>provisionsfrei</aussen_courtage>
+                <waehrung iso_waehrung="EUR"/>
+                <stp_garage anzahl="1"/>
+                <user_defined_simplefield feldname="provisionsfrei">true</user_defined_simplefield>
+            </preise>
+            <flaechen>
+                <wohnflaeche>125.00</wohnflaeche>
+                <grundstuecksflaeche>372.00</grundstuecksflaeche>
+                <anzahl_terrassen>1.00</anzahl_terrassen>
+                <balkon_terrasse_flaeche>22.00</balkon_terrasse_flaeche>
+                <anzahl_stellplaetze>1</anzahl_stellplaetze>
+                <user_defined_simplefield feldname="TERRASSE_ANZAHL">1</user_defined_simplefield>
+                <user_defined_simplefield feldname="TERRASSE_FLAECHE">22.56</user_defined_simplefield>
+            </flaechen>
+            <ausstattung>
+                <stellplatzart GARAGE="1"/>
+            </ausstattung>
+            <zustand_angaben>
+                <zustand zustand_art="ERSTBEZUG"/>
+                <energiepass>
+                    <epart/>
+                </energiepass>
+            </zustand_angaben>
+            <freitexte>
+                <objekttitel><![CDATA[Doppelhausprojekt Blindenmarkt]]></objekttitel>
+                <objektbeschreibung><![CDATA[Haus A
+
+Diese nach Süden ausgerichtete Doppelhaushälfte mit einer Wohnfläche von 125 m², besticht durch die lichtdurchfluteten Räume und der offenen Wohnraumgestaltung. Weiters steht Ihnen eine Garage mit 22,57 m² und eine Terrasse mit 22,56 m² zur Verfügung.
+
+Die Räume teilen sich auf wie folgt
+
+Erdgeschoss
+Diele: 7,51 m²
+Wohnküche: 47,25 m²
+Speise: 2,89 m²
+AR / HT: 3,87 m²
+WC: 2,69 m²
+Garage: 22,75 m²
+
+Obergeschoss
+Diele: 8,55 m²
+Zimmer 1: 15,19 m²
+Zimmer 2: 11,42 m²
+Zimmer 3: 15,27 m²
+AR: 2,20 m²
+WC: 1,34 m²
+Badezimmer: 6,78 m²
+
+Marktgemeinde Blindenmarkt-Bezirk Melk
+Die Marktgemeinde Blindenmarkt liegt im Herzen des Mostviertels auf einer Seehöhe von 246 m. Das Gemeindegebiet erstreckt sich auf einer Fläche von 1.705 ha und wird in drei Katestralgemeinden (Blindenmarkt, Kottingburgstall, Weitgraben) unterteilt. Rund 41 % des Gemeindegebietes sind Waldflächen. Im Jahr 2007 zählt die Gemeinde 2.457 Einwohner.
+
+Blindenmarkt profitiert von der guten Anbindung an die wichtigen Ost-West-Verbindungen wie die Westbahn (ÖBB) und die A1 (Ausfahrt Amstetten Ost). Mit zahlreichen Nahversorgern und Einkaufsmöglichkeiten zählt Blindenmarkt zu einer beliebten Wohngemeinde. Durch das Schulzentrum mit Volks- und Musikhauptschule sowie polytechnischen Lehrgängen bietet die Marktgemeinde optimale pädagogische Versorgung für den Nachwuchs Blindenmarkts und einiger Nachbargemeinden.
+
+Durch die Auseen im Gemeindegebiet von Blindenmarkt ist die Gemeinde vor allem für Tagesgäste interessant und bietet mit dem Erholungsgebiet Möglichkeiten für Jung und Alt.
+In den letzten Jahren erwarb sich die Gemeinde mit den Blindenmarkter Herbsttagen ein kulturelles Ansehen das mittlerweile weit über die niederösterreichischen Grenzen hinausgeht.
+
+Dieses Bauvorhaben wird von der Firma Pointinger Exclusiv Haus S-P GmbH & CoKG errichtet.
+
+]]></objektbeschreibung>
+            </freitexte>
+            <anhaenge>
+                <anhang location="REMOTE" gruppe="TITELBILD">
+                    <anhangtitel>Ansicht I</anhangtitel>
+                    <format>jpg</format>
+                    <check ctype="DATETIME">2015-03-09T15:41:06</check>
+                    <daten>
+                        <pfad>http://media.ediorg.at/media/image/-30000382/orig/1000048545_0.jpg</pfad>
+                    </daten>
+                </anhang>
+                <anhang location="REMOTE" gruppe="BILD">
+                    <anhangtitel>Ansicht II</anhangtitel>
+                    <format>jpg</format>
+                    <check ctype="DATETIME">2015-03-09T15:41:09</check>
+                    <daten>
+                        <pfad>http://media.ediorg.at/media/image/-30000382/orig/1000048545_1.jpg</pfad>
+                    </daten>
+                </anhang>
+                <anhang location="REMOTE" gruppe="BILD">
+                    <anhangtitel>Ansicht III</anhangtitel>
+                    <format>jpg</format>
+                    <check ctype="DATETIME">2015-06-18T09:22:09</check>
+                    <daten>
+                        <pfad>http://media.ediorg.at/media/image/-30000382/orig/1000048545_2.jpg</pfad>
+                    </daten>
+                </anhang>
+                <anhang location="REMOTE" gruppe="BILD">
+                    <anhangtitel>Ansicht IIII</anhangtitel>
+                    <format>jpg</format>
+                    <check ctype="DATETIME">2015-03-09T15:41:15</check>
+                    <daten>
+                        <pfad>http://media.ediorg.at/media/image/-30000382/orig/1000048545_3.jpg</pfad>
+                    </daten>
+                </anhang>
+                <anhang location="REMOTE" gruppe="BILD">
+                    <anhangtitel>Nordansicht Strassenseitige Ansicht</anhangtitel>
+                    <format>jpg</format>
+                    <check ctype="DATETIME">2015-03-09T15:41:18</check>
+                    <daten>
+                        <pfad>http://media.ediorg.at/media/image/-30000382/orig/1000048545_4.jpg</pfad>
+                    </daten>
+                </anhang>
+                <anhang location="REMOTE" gruppe="BILD">
+                    <anhangtitel>Nordansicht</anhangtitel>
+                    <format>jpg</format>
+                    <check ctype="DATETIME">2015-03-09T15:41:20</check>
+                    <daten>
+                        <pfad>http://media.ediorg.at/media/image/-30000382/orig/1000048545_5.jpg</pfad>
+                    </daten>
+                </anhang>
+                <anhang location="REMOTE" gruppe="BILD">
+                    <anhangtitel>Schnitt B B Westansicht</anhangtitel>
+                    <format>jpg</format>
+                    <check ctype="DATETIME">2015-03-09T15:41:22</check>
+                    <daten>
+                        <pfad>http://media.ediorg.at/media/image/-30000382/orig/1000048545_6.jpg</pfad>
+                    </daten>
+                </anhang>
+                <anhang location="REMOTE" gruppe="BILD">
+                    <anhangtitel>Westansicht</anhangtitel>
+                    <format>jpg</format>
+                    <check ctype="DATETIME">2015-03-09T15:41:24</check>
+                    <daten>
+                        <pfad>http://media.ediorg.at/media/image/-30000382/orig/1000048545_7.jpg</pfad>
+                    </daten>
+                </anhang>
+                <anhang location="REMOTE" gruppe="BILD">
+                    <anhangtitel>Erdgeschoss</anhangtitel>
+                    <format>jpg</format>
+                    <check ctype="DATETIME">2015-03-09T15:41:26</check>
+                    <daten>
+                        <pfad>http://media.ediorg.at/media/image/-30000382/orig/1000048545_8.jpg</pfad>
+                    </daten>
+                </anhang>
+                <anhang location="REMOTE" gruppe="BILD">
+                    <anhangtitel>Obergeschoss</anhangtitel>
+                    <format>jpg</format>
+                    <check ctype="DATETIME">2015-03-09T15:41:28</check>
+                    <daten>
+                        <pfad>http://media.ediorg.at/media/image/-30000382/orig/1000048545_9.jpg</pfad>
+                    </daten>
+                </anhang>
+                <anhang location="REMOTE" gruppe="BILD">
+                    <anhangtitel>Südansicht</anhangtitel>
+                    <format>jpg</format>
+                    <check ctype="DATETIME">2015-03-09T15:41:30</check>
+                    <daten>
+                        <pfad>http://media.ediorg.at/media/image/-30000382/orig/1000048545_10.jpg</pfad>
+                    </daten>
+                </anhang>
+                <anhang location="REMOTE" gruppe="BILD">
+                    <anhangtitel>Übersichtsplan</anhangtitel>
+                    <format>jpg</format>
+                    <check ctype="DATETIME">2015-03-09T15:41:33</check>
+                    <daten>
+                        <pfad>http://media.ediorg.at/media/image/-30000382/orig/1000048545_11.jpg</pfad>
+                    </daten>
+                </anhang>
+                <anhang location="REMOTE" gruppe="DOKUMENTE">
+                    <anhangtitel>Energieausweis Haus A.pdf</anhangtitel>
+                    <format>pdf</format>
+                    <check ctype="DATETIME">2015-03-09T16:32:21</check>
+                    <daten>
+                        <pfad>http://media.ediorg.at/media/pdf/-30000382/orig/1000048545_0.pdf</pfad>
+                    </daten>
+                </anhang>
+                <anhang location="REMOTE" gruppe="DOKUMENTE">
+                    <anhangtitel>Exposé Blindenmarkt.pdf</anhangtitel>
+                    <format>pdf</format>
+                    <check ctype="DATETIME">2015-04-27T14:58:54</check>
+                    <daten>
+                        <pfad>http://media.ediorg.at/media/pdf/-30000382/orig/1000048545_3.pdf</pfad>
+                    </daten>
+                </anhang>
+            </anhaenge>
+            <verwaltung_objekt>
+                <objektadresse_freigeben>false</objektadresse_freigeben>
+            </verwaltung_objekt>
+            <verwaltung_techn>
+                <objektnr_intern>21</objektnr_intern>
+                <objektnr_extern>21</objektnr_extern>
+                <aktion aktionart="CHANGE"/>
+                <openimmo_obid>3382/21</openimmo_obid>
+                <stand_vom>2015-06-18</stand_vom>
+                <weitergabe_generell>0</weitergabe_generell>
+            </verwaltung_techn>
+        </immobilie>
+        <immobilie>
+            <objektkategorie>
+                <nutzungsart WOHNEN="1" GEWERBE="0" ANLAGE="0" WAZ="0"/>
+                <vermarktungsart KAUF="1" MIETE_PACHT="0" ERBPACHT="0" LEASING="0"/>
+                <objektart>
+                    <haus haustyp="DOPPELHAUSHAELFTE"/>
+                </objektart>
+                <user_defined_simplefield feldname="obergruppe">Häuser</user_defined_simplefield>
+                <user_defined_simplefield feldname="untergruppen">Doppelhaushälfte;;</user_defined_simplefield>
+            </objektkategorie>
+            <geo>
+                <plz>3372</plz>
+                <ort>Blindenmarkt</ort>
+                <bundesland>Niederösterreich</bundesland>
+                <land iso_land="AUT"/>
+                <user_defined_simplefield feldname="bezirk">Melk</user_defined_simplefield>
+                <user_defined_simplefield feldname="geocords_allow">0</user_defined_simplefield>
+            </geo>
+            <kontaktperson>
+                <email_zentrale>office@trendreal.at</email_zentrale>
+                <email_direkt>josef.luger@trendreal.at</email_direkt>
+                <tel_zentrale>+43 / 732 / 673562 / 0</tel_zentrale>
+                <tel_durchw>43 / 664 53 73 477</tel_durchw>
+                <name><![CDATA[Luger]]></name>
+                <vorname>Josef</vorname>
+                <anrede>Herr</anrede>
+                <firma>Trendreal S-P GmbH &amp; CoKG</firma>
+                <strasse>Stummerstraße</strasse>
+                <hausnummer>1</hausnummer>
+                <plz>4060</plz>
+                <ort>Leonding</ort>
+                <land iso_land="AUT"/>
+                <url>www.trendreal.at</url>
+                <adressfreigabe>1</adressfreigabe>
+                <personennummer>10</personennummer>
+            </kontaktperson>
+            <preise>
+                <kaufpreis>254640.00</kaufpreis>
+                <aussen_courtage>provisionsfrei</aussen_courtage>
+                <waehrung iso_waehrung="EUR"/>
+                <stp_garage anzahl="1"/>
+                <user_defined_simplefield feldname="provisionsfrei">true</user_defined_simplefield>
+            </preise>
+            <flaechen>
+                <wohnflaeche>125.00</wohnflaeche>
+                <grundstuecksflaeche>418.00</grundstuecksflaeche>
+                <anzahl_terrassen>1.00</anzahl_terrassen>
+                <balkon_terrasse_flaeche>22.00</balkon_terrasse_flaeche>
+                <anzahl_stellplaetze>1</anzahl_stellplaetze>
+                <user_defined_simplefield feldname="TERRASSE_ANZAHL">1</user_defined_simplefield>
+                <user_defined_simplefield feldname="TERRASSE_FLAECHE">22.56</user_defined_simplefield>
+            </flaechen>
+            <ausstattung>
+                <stellplatzart GARAGE="1"/>
+            </ausstattung>
+            <zustand_angaben>
+                <zustand zustand_art="ERSTBEZUG"/>
+                <energiepass>
+                    <epart/>
+                </energiepass>
+            </zustand_angaben>
+            <freitexte>
+                <objekttitel><![CDATA[Doppelhausprojekt Blindenmarkt]]></objekttitel>
+                <objektbeschreibung><![CDATA[Haus A1
+
+Diese nach Süden ausgerichtete Doppelhaushälfte mit einer Wohnfläche von 125 m², besticht durch die lichtdurchfluteten Räume und der offenen Wohnraumgestaltung. Weiters steht Ihnen eine Garage mit 22,57 m² und eine Terrasse mit 22,56 m² zur Verfügung.
+
+Die Räume teilen sich auf wie folgt
+
+Erdgeschoss
+Diele: 7,51 m²
+Wohnküche: 47,25 m²
+Speise: 2,89 m²
+AR / HT: 3,87 m²
+WC: 2,69 m²
+Garage: 22,75 m²
+
+Obergeschoss
+Diele: 8,55 m²
+Zimmer 1: 15,19 m²
+Zimmer 2: 11,42 m²
+Zimmer 3: 15,27 m²
+AR: 2,20 m²
+WC: 1,34 m²
+Badezimmer: 6,78 m²
+
+Marktgemeinde Blindenmarkt-Bezirk Melk
+Die Marktgemeinde Blindenmarkt liegt im Herzen des Mostviertels auf einer Seehöhe von 246 m. Das Gemeindegebiet erstreckt sich auf einer Fläche von 1.705 ha und wird in drei Katestralgemeinden (Blindenmarkt, Kottingburgstall, Weitgraben) unterteilt. Rund 41 % des Gemeindegebietes sind Waldflächen. Im Jahr 2007 zählt die Gemeinde 2.457 Einwohner.
+
+Blindenmarkt profitiert von der guten Anbindung an die wichtigen Ost-West-Verbindungen wie die Westbahn (ÖBB) und die A1 (Ausfahrt Amstetten Ost). Mit zahlreichen Nahversorgern und Einkaufsmöglichkeiten zählt Blindenmarkt zu einer beliebten Wohngemeinde. Durch das Schulzentrum mit Volks- und Musikhauptschule sowie polytechnischen Lehrgängen bietet die Marktgemeinde optimale pädagogische Versorgung für den Nachwuchs Blindenmarkts und einiger Nachbargemeinden.
+
+Durch die Auseen im Gemeindegebiet von Blindenmarkt ist die Gemeinde vor allem für Tagesgäste interessant und bietet mit dem Erholungsgebiet Möglichkeiten für Jung und Alt.
+In den letzten Jahren erwarb sich die Gemeinde mit den Blindenmarkter Herbsttagen ein kulturelles Ansehen das mittlerweile weit über die niederösterreichischen Grenzen hinausgeht.
+
+Dieses Bauvorhaben wird von der Firma Pointinger Exclusiv Haus S-P GmbH & CoKG errichtet.]]></objektbeschreibung>
+            </freitexte>
+            <anhaenge>
+                <anhang location="REMOTE" gruppe="TITELBILD">
+                    <anhangtitel>Ansicht I</anhangtitel>
+                    <format>jpg</format>
+                    <check ctype="DATETIME">2015-03-09T15:43:44</check>
+                    <daten>
+                        <pfad>http://media.ediorg.at/media/image/-30000382/orig/1000048573_0.jpg</pfad>
+                    </daten>
+                </anhang>
+                <anhang location="REMOTE" gruppe="BILD">
+                    <anhangtitel>Ansicht II</anhangtitel>
+                    <format>jpg</format>
+                    <check ctype="DATETIME">2015-03-09T15:43:44</check>
+                    <daten>
+                        <pfad>http://media.ediorg.at/media/image/-30000382/orig/1000048573_1.jpg</pfad>
+                    </daten>
+                </anhang>
+                <anhang location="REMOTE" gruppe="BILD">
+                    <anhangtitel>Ansicht III</anhangtitel>
+                    <format>jpg</format>
+                    <check ctype="DATETIME">2015-06-18T09:23:27</check>
+                    <daten>
+                        <pfad>http://media.ediorg.at/media/image/-30000382/orig/1000048573_2.jpg</pfad>
+                    </daten>
+                </anhang>
+                <anhang location="REMOTE" gruppe="BILD">
+                    <anhangtitel>Ansicht IIII</anhangtitel>
+                    <format>jpg</format>
+                    <check ctype="DATETIME">2015-03-09T15:43:44</check>
+                    <daten>
+                        <pfad>http://media.ediorg.at/media/image/-30000382/orig/1000048573_3.jpg</pfad>
+                    </daten>
+                </anhang>
+                <anhang location="REMOTE" gruppe="BILD">
+                    <anhangtitel>Nordansicht Strassenseitige Ansicht</anhangtitel>
+                    <format>jpg</format>
+                    <check ctype="DATETIME">2015-03-09T15:43:44</check>
+                    <daten>
+                        <pfad>http://media.ediorg.at/media/image/-30000382/orig/1000048573_4.jpg</pfad>
+                    </daten>
+                </anhang>
+                <anhang location="REMOTE" gruppe="BILD">
+                    <anhangtitel>Nordansicht</anhangtitel>
+                    <format>jpg</format>
+                    <check ctype="DATETIME">2015-03-09T15:43:44</check>
+                    <daten>
+                        <pfad>http://media.ediorg.at/media/image/-30000382/orig/1000048573_5.jpg</pfad>
+                    </daten>
+                </anhang>
+                <anhang location="REMOTE" gruppe="BILD">
+                    <anhangtitel>Schnitt B B Westansicht</anhangtitel>
+                    <format>jpg</format>
+                    <check ctype="DATETIME">2015-03-09T15:43:44</check>
+                    <daten>
+                        <pfad>http://media.ediorg.at/media/image/-30000382/orig/1000048573_6.jpg</pfad>
+                    </daten>
+                </anhang>
+                <anhang location="REMOTE" gruppe="BILD">
+                    <anhangtitel>Westansicht</anhangtitel>
+                    <format>jpg</format>
+                    <check ctype="DATETIME">2015-03-09T15:43:44</check>
+                    <daten>
+                        <pfad>http://media.ediorg.at/media/image/-30000382/orig/1000048573_7.jpg</pfad>
+                    </daten>
+                </anhang>
+                <anhang location="REMOTE" gruppe="BILD">
+                    <anhangtitel>Erdgeschoss</anhangtitel>
+                    <format>jpg</format>
+                    <check ctype="DATETIME">2015-03-09T15:43:44</check>
+                    <daten>
+                        <pfad>http://media.ediorg.at/media/image/-30000382/orig/1000048573_8.jpg</pfad>
+                    </daten>
+                </anhang>
+                <anhang location="REMOTE" gruppe="BILD">
+                    <anhangtitel>Obergeschoss</anhangtitel>
+                    <format>jpg</format>
+                    <check ctype="DATETIME">2015-03-09T15:43:44</check>
+                    <daten>
+                        <pfad>http://media.ediorg.at/media/image/-30000382/orig/1000048573_9.jpg</pfad>
+                    </daten>
+                </anhang>
+                <anhang location="REMOTE" gruppe="BILD">
+                    <anhangtitel>Südansicht</anhangtitel>
+                    <format>jpg</format>
+                    <check ctype="DATETIME">2015-03-09T15:43:44</check>
+                    <daten>
+                        <pfad>http://media.ediorg.at/media/image/-30000382/orig/1000048573_10.jpg</pfad>
+                    </daten>
+                </anhang>
+                <anhang location="REMOTE" gruppe="BILD">
+                    <anhangtitel>Übersichtsplan</anhangtitel>
+                    <format>jpg</format>
+                    <check ctype="DATETIME">2015-03-09T15:43:44</check>
+                    <daten>
+                        <pfad>http://media.ediorg.at/media/image/-30000382/orig/1000048573_11.jpg</pfad>
+                    </daten>
+                </anhang>
+                <anhang location="REMOTE" gruppe="DOKUMENTE">
+                    <anhangtitel>Energieausweis Haus A1.pdf</anhangtitel>
+                    <format>pdf</format>
+                    <check ctype="DATETIME">2015-03-09T16:30:12</check>
+                    <daten>
+                        <pfad>http://media.ediorg.at/media/pdf/-30000382/orig/1000048573_0.pdf</pfad>
+                    </daten>
+                </anhang>
+                <anhang location="REMOTE" gruppe="DOKUMENTE">
+                    <anhangtitel>Exposé Blindenmarkt.pdf</anhangtitel>
+                    <format>pdf</format>
+                    <check ctype="DATETIME">2015-04-27T15:57:55</check>
+                    <daten>
+                        <pfad>http://media.ediorg.at/media/pdf/-30000382/orig/1000048573_3.pdf</pfad>
+                    </daten>
+                </anhang>
+            </anhaenge>
+            <verwaltung_objekt>
+                <objektadresse_freigeben>false</objektadresse_freigeben>
+            </verwaltung_objekt>
+            <verwaltung_techn>
+                <objektnr_intern>22</objektnr_intern>
+                <objektnr_extern>22</objektnr_extern>
+                <aktion aktionart="CHANGE"/>
+                <openimmo_obid>3382/22</openimmo_obid>
+                <stand_vom>2015-06-18</stand_vom>
+                <weitergabe_generell>0</weitergabe_generell>
+            </verwaltung_techn>
+        </immobilie>
+    </anbieter>
+</openimmo>

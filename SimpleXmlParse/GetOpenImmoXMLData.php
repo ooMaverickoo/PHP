@@ -152,6 +152,60 @@ class GetOpenImmoXMLData
         }
     }
 
+
+    public function getPropertyWithIndex($index)
+    {
+        $anbieter = self::ANBIETER;
+        $immobilien = self::IMMOBILIE;
+        $geo = self::GEO;
+        $anhaenge = self::ANHAENGE;
+        $anhang = self::ANHANG;
+        $ort = self::ORT;
+        $daten = self::DATEN;
+        $plz = self::PLZ;
+        $bezirk = self::BEZIRK;
+        $bundesland = self::BUNDESLAND;
+        $freitexte = self::FREITEXTE;
+        $objektbeschreibung = self::OBJEKTBESCHREIBUNG;
+        $objektkategorie = self::OBJEKTKATEGORIE;
+        $objektart = self::OBJEKTART;
+        $preise = self::PREISE;
+        $kaufpreis = self::KAUFPREIS;
+        $flaechen = self::FLAECHEN;
+        $wohnflaeche = self::WOHNFLAECHE;
+
+        //type of property
+        echo "<h2>" . $this->xmlobject->$anbieter->$immobilien[$index]->$objektkategorie->$objektart->haus[self::HAUSTYP] . "</h2>";
+
+        //cover image
+        echo "<img src=\"" . $this->xmlobject->anbieter->$immobilien[$index]->anhaenge->anhang[0]->daten->pfad . "\" WIDTH=" . self::IMAGESIZE_COVER . "><br><br>";
+
+        //more images of the property
+        foreach ($this->xmlobject->anbieter->$immobilien[$index]->$anhaenge->$anhang as $images) {
+
+            //url_check if image does not exist
+            if (self::checkUrl($images->daten->pfad) && $images->format == "jpg" || $images->format == "png") {
+                echo "<img src=\"" . $images->daten->pfad . "\" WIDTH=" . self::IMAGESIZE_ATTACHMENT . ">";
+            }
+        }
+
+        //address
+        echo "<h3>Adresse:</h3>";
+        echo $this->xmlobject->anbieter->$immobilien[$index]->$geo->$ort . "<br>"
+            . $this->xmlobject->anbieter->$immobilien[$index]->$geo->$plz . " "
+            . $this->xmlobject->anbieter->$immobilien[$index]->$geo->$bezirk . "<br>"
+            . $this->xmlobject->anbieter->$immobilien[$index]->$geo->$bundesland . "<br>"
+            . $this->xmlobject->anbieter->$immobilien[$index]->$geo->land[self::ISO_LAND] . "<br><br>";
+
+        //price
+        echo "Kaufpreis: <br>" . self::EURO . " " . $this->xmlobject->anbieter->$immobilien[$index]->$preise->$kaufpreis . " ,-" . "<br><br>";
+        //squaremeters
+        echo "Wohnfläche: <br>" . $this->xmlobject->anbieter->$immobilien[$index]->$flaechen->$wohnflaeche . " m<sup>2</sup>" . "<br><br>";
+
+        //description of the property
+        echo "<h3>Beschreibung:</h3>" . str_replace("\n", "<br>", $this->xmlobject->anbieter->$immobilien[$index]->$freitexte->$objektbeschreibung) . "<br><br>";
+    }
+
     //Check how often the word immobilie appears in the file
     public function getNumberOfProperties()
     {
@@ -216,7 +270,7 @@ class GetOpenImmoXMLData
                         $filtered_properties[$i] = true;
 
                         //coverimage
-                            echo "<img src=\"" . $use_as->anhaenge->anhang[0]->daten->pfad . "\" WIDTH=" . self::IMAGESIZE_COVER . "><br><br>";
+                        $this->getPropertyWithIndex($i);
 
                         $this->debugToConsole($filtered_properties);
                     } else {
@@ -230,7 +284,6 @@ class GetOpenImmoXMLData
             }
             $i++;
         }
-
 
 
         return $filtered_properties;
@@ -308,10 +361,11 @@ class GetOpenImmoXMLData
         }
     }
 
-    function debugToConsole($data) {
+    function debugToConsole($data)
+    {
         $output = $data;
-        if ( is_array( $output ) )
-            $output = implode( ',', $output);
+        if (is_array($output))
+            $output = implode(',', $output);
 
         echo "<script>console.log( 'Debug Objects: " . $output . "' );</script>";
     }

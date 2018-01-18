@@ -1,3 +1,4 @@
+
 <form action="" method="get">
     Suche:
     <label>
@@ -44,15 +45,15 @@ require_once("GetOpenImmoXMLData.php");
 $get_parameter = $_GET;
 
 
+$xml_object = new GetOpenImmoXMLData($get_parameter);
 
-$xmlobject = new GetOpenImmoXMLData($get_parameter);
 
-
-if ($xmlobject->getGetArray() == false) {
+if ($xml_object->getGetArray() == false) {
     //Outputs the number of properties
-    echo "Es befinden sich " . $xmlobject->getNumberOfProperties() . " Objekte auf unserer Seite" . "<br><br>";
-    $xmlobject->getAllProperties();
+    echo "Es befinden sich " . $xml_object->getNumberOfProperties() . " Objekte auf unserer Seite" . "<br><br>";
+    $xml_object->getAllProperties();
 } else {
-    $xmlobject->filterProperties();
+    //output the filtered properties
+    $xml_object->filterProperties();
 }
 ?>
